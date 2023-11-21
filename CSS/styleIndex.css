@@ -48,21 +48,60 @@ footer p {
 }
 
 
+/* dados login */
+.dados-login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-login input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #363537;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+
 /* Botão outros logins */
-.facebook-logo {
-    width: 3rem;
+
+.logins-alternativos {
+    margin-top: 3rem;
+    width: 1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.google-logo {
-    width: 3rem;
+.logins-alternativos a {
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding-inline: 1.7rem;
+    padding-top: 0.2rem;
+    border-radius: 0.5rem;
+    margin-inline: 0.2rem;
+    border: 1px solid #363537;
 }
 
-.apple-logo {
-    width: 3rem;
+.facebook-logo, .google-logo, .apple-logo, .xbox-logo {
+    width: 1.5rem;
 }
 
-.xbox-logo {
-    width: 3rem;
+.a1 {
+    background-color: #000;
+}
+
+
+
+
+/* Manter login */
+.check-box {
+    margin-top: 3rem;
 }
 
 
@@ -74,6 +113,7 @@ footer p {
 .funciona {
     background-color: aqua;
     border-radius: 50%;
+    margin-top: 3rem;
 }
 
 .funciona img {
@@ -82,6 +122,12 @@ footer p {
 }
 
 /* Esqueceu senha e cadastro */
-.esqueceu-senha {
+.esqueceu-senha, .esqueceu-senha2 {
     color: #363537;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.esqueceu-senha {
+    margin-top: 1rem;
 }
