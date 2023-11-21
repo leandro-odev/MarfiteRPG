@@ -1,3 +1,7 @@
+main, footer {
+    font-family: "FF Mark W05", Arial, Helvetica, sans-serif;
+}
+
 body {
     background-image: url("https://rpgnext.com.br/wp-content/uploads/2016/02/old_tree_wallpaper_by_deligaris-d6q8la1.jpg");
 }
@@ -16,6 +20,8 @@ footer p {
     color: #fff;
 }
 
+
+/* Logo Marfite */
 .logo-img {
     width: 6rem;
     height: 6rem;
@@ -28,21 +34,6 @@ footer p {
     margin-top: 0.5rem;
 }
 
-    .facebook-logo {
-        width: 3rem;
-    }
-
-.google-logo {
-    width: 3rem;
-}
-
-.apple-logo {
-    width: 3rem;
-}
-
-.xbox-logo {
-    width: 3rem;
-}
 
 #formulario {
     display: flex;
@@ -56,6 +47,30 @@ footer p {
     margin: auto;
 }
 
+
+/* Botão outros logins */
+.facebook-logo {
+    width: 3rem;
+}
+
+.google-logo {
+    width: 3rem;
+}
+
+.apple-logo {
+    width: 3rem;
+}
+
+.xbox-logo {
+    width: 3rem;
+}
+
+
+/* Botão enviar */
+.funciona :hover {
+    cursor: pointer;
+}
+
 .funciona {
     background-color: aqua;
     border-radius: 50%;
@@ -64,4 +79,9 @@ footer p {
 .funciona img {
     border-radius: 50%;
     width: 4rem;
+}
+
+/* Esqueceu senha e cadastro */
+.esqueceu-senha {
+    color: #363537;
 }
