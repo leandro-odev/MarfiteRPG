@@ -1,12 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
+    align-items: center;
+}
 
 main, footer {
+    display: flex;
+    margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
     /* font-family: "FF Mark W05", Arial, Helvetica, sans-serif; */
 }
 
+header {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 body {
-    background-image: url("https://rpgnext.com.br/wp-content/uploads/2016/02/old_tree_wallpaper_by_deligaris-d6q8la1.jpg");
+    /* background-image: url("https://rpgnext.com.br/wp-content/uploads/2016/02/old_tree_wallpaper_by_deligaris-d6q8la1.jpg"); */
+    background-image: url("https://www.r2pg.com.br/wp-content/uploads/2017/06/piotr-dura-tree-of-the-forgotten2k.jpg");
+    background-size: cover;
 }
 
 header {
@@ -15,8 +44,14 @@ header {
 }
 
 footer {
-    bottom: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 6.6rem;
+    margin-top: 0.3rem;
+    border-radius: 1rem;
 }
 
 footer p {
@@ -26,14 +61,18 @@ footer p {
 
 /* Logo Marfite */
 .logo-img {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 2rem;
 }
 
 .logo-txt {
     color: #fff;
-    font-size: 4rem;
-    margin: 0px;
+    font-size: 2rem;
+}
+
+.logo-img, .logo-txt {
+    display: inline-block;
+    margin-left: 0.5rem;
     margin-top: 0.5rem;
 }
 
@@ -59,7 +98,7 @@ footer p {
 }
 
 .dados-login input {
-    width: 20rem;
+    width: 21rem;
     height: 2rem;
     border: 0rem;
     margin-top: 1rem;
@@ -87,40 +126,32 @@ footer p {
 .logins-alternativos a {
     align-items: center;
     justify-content: center;
-    padding-inline: 1.7rem;
+    padding-inline: 1.65rem;
     padding-top: 0.3rem;
     border-radius: 2rem;
     margin-inline: 0.2rem;
-    border: 1px solid #363537;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.35);
 }
 
 .facebook-logo, .google-logo, .apple-logo, .xbox-logo {
     width: 1.5rem;
 }
 
-.a1 {
-    background-color: #000;
-}
-
 .logins-alternativos a:nth-child(1) {
     background-color: #1877F2;
-    border-color: #1566d0;
 }
 
 .logins-alternativos a:nth-child(2) {
     background-color: #fff;
-    border-color: #edecec;
 }
 
 .logins-alternativos a:nth-child(3) {
     background-color: #000;
-    border-color: #000;
 }
 
 .logins-alternativos a:nth-child(4) {
     background-color: 	#107c10;
-    border-color: 	#0d690d;
 }
 
 
@@ -128,7 +159,7 @@ footer p {
 .check-box {
     margin-top: 1rem;
     display: flex;
-    margin-right: 15rem;
+    margin-right: 15.5rem;
 }
 
 .check-box label {
@@ -169,5 +200,14 @@ footer p {
 }
 
 .esqueceu-senha {
+    margin-top: 1rem;
+}
+
+
+/* Final */
+
+.github-logo {
+    width: 2rem;
+    height: 2rem;
     margin-top: 1rem;
 }
