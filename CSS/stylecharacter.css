@@ -86,6 +86,11 @@ footer p {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    padding: 0; /* Remove default button padding */
+    color: #000;
+    text-decoration: none;
 }
 
 .create-character img {
