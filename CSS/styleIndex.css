@@ -165,17 +165,20 @@ footer p {
 .check-box label {
     font-size: 0.7rem;
     align-items: center;
-    
+}
+
+#check-box :hover {
+    cursor: pointer;
 }
 
 
 /* Botão enviar */
-.funciona :hover {
+.funciona:hover {
     cursor: pointer;
 }
 
 .funciona {
-    background-color: #73fd33;
+    background-color: #5CFFEE;
     border-radius: 1.5rem;
     margin-top: 3rem;
     width: 5rem;
