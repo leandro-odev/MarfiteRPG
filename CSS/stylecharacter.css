@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
+    align-items: center;
+}
+
+main, footer {
+    display: flex;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "FF Mark W05", Arial, Helvetica, sans-serif; */
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    /* background-image: url("https://rpgnext.com.br/wp-content/uploads/2016/02/old_tree_wallpaper_by_deligaris-d6q8la1.jpg"); */
+    background-image: url("https://www.r2pg.com.br/wp-content/uploads/2017/06/piotr-dura-tree-of-the-forgotten2k.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    letter-spacing: 2;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 6.6rem;
+    margin-top: 0.3rem;
+    border-radius: 1rem;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+/* Logo Marfite */
+.logo-img {
+    width: 4rem;
+    height: 2rem;
+}
+
+.logo-txt {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.logo-img, .logo-txt {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+/* Cria personagem */
+.create-character {
+    background-color: #fff;
+    height: 6rem;
+    width: 35rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /* justify-content: center; */
+}
+
+.create-character img {
+    width: 3.5rem;
+    height: 3.5rem;
+    /* background-color: black; */
+    margin-left: 1rem;
+}
+
+.create-character h2 {
+
+}
+
+.create-character div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+
+.create-character div h3 {
+        
+}
+
+/* Personagens */
+.characters {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.personagem {
+    margin-top: 1rem;
+    background-color: #fff;
+    height: 6rem;
+    width: 35rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.personagem img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
+}
+
+.personagem h2 {
+
+}
+
+.personagem div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+/* Final */
+.github-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
