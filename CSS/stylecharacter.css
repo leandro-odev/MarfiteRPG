@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 * {
     margin: 0;
@@ -25,7 +26,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 
 body {
@@ -41,6 +42,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 6.6rem;
+    margin-top: 0.3rem;
     border-radius: 1rem;
     position: absolute;
     left: 0;
@@ -74,138 +76,92 @@ footer p {
 }
 
 
-#formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/* Cria personagem */
+.create-character {
     background-color: #fff;
-    width: 30rem;
-    height: 35rem;
+    height: 6rem;
+    width: 35rem;
     border-radius: 1rem;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    padding: 0; /* Remove default button padding */
+    color: #000;
+    text-decoration: none;
 }
 
+.create-character img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+}
 
-/* dados login */
-.dados-login {
-    align-items: center;
+.create-character div {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+
+.create-character div h3 {
+    font-size: 1.5rem;
+}
+
+/* Personagens */
+.characters {
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
-
-.dados-login input {
-    width: 21rem;
-    height: 2rem;
-    border: 0rem;
+.personagem {
     margin-top: 1rem;
-    padding-left: 1rem;
-    background-color: #f2f2f2;
-}
-
-.dados-login input::placeholder {
-    font-weight: bold;
-}
-
-
-
-/* Botão outros logins */
-
-.logins-alternativos {
-    margin-top: 1rem;
-    width: 1.5rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logins-alternativos a {
-    align-items: center;
-    justify-content: center;
-    padding-inline: 1.65rem;
-    padding-top: 0.3rem;
-    border-radius: 2rem;
-    margin-inline: 0.2rem;
-    border: 1px solid transparent;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.35);
-}
-
-.facebook-logo, .google-logo, .apple-logo, .xbox-logo {
-    width: 1.5rem;
-}
-
-.logins-alternativos a:nth-child(1) {
-    background-color: #1877F2;
-}
-
-.logins-alternativos a:nth-child(2) {
     background-color: #fff;
-}
-
-.logins-alternativos a:nth-child(3) {
-    background-color: #000;
-}
-
-.logins-alternativos a:nth-child(4) {
-    background-color: 	#107c10;
-}
-
-
-/* Manter login */
-.check-box {
-    margin-top: 1rem;
+    height: 6rem;
+    width: 35rem;
+    border-radius: 1rem;
     display: flex;
-    margin-right: 15.5rem;
-}
-
-.check-box label {
-    font-size: 0.7rem;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
-#check-box :hover {
-    cursor: pointer;
+.personagem img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
 }
 
-
-/* Botão enviar */
-.funciona:hover {
-    cursor: pointer;
-}
-
-.funciona {
-    background-color: #5CFFEE;
-    border-radius: 1.5rem;
-    margin-top: 3rem;
-    width: 5rem;
-    height: 5rem;
-
-    border-color: transparent;
-}
-
-.funciona img {
-    width: 5rem;
-    height: 5rem;
+.personagem div {
+    display: flex;
     align-items: center;
     justify-content: center;
-    rotate: 90deg;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 1rem;
 }
 
-/* Esqueceu senha e cadastro */
-.esqueceu-senha, .esqueceu-senha2 {
-    color: #363537;
-    text-decoration: none;
-    font-weight: 600;
+.personagem div h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
 }
 
-.esqueceu-senha {
-    margin-top: 1rem;
-}
+
 
 
 /* Final */
-
 .github-logo {
     width: 2rem;
     height: 2rem;
