@@ -1,5 +1,5 @@
 <h1>
-    <img width="32" src="/assets/logos/marfite.jpeg">
+    <img width="50" height="32" src="/assets/logos/marfite.jpeg">
     MarfiteRPG - O Mundo é seu Tabuleiro
 </h1>
 
