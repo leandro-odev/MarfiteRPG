@@ -1,11 +1,11 @@
 <h1>
-    <img width="50" height="32" src="/assets/logos/marfite.jpeg">
+    <img width="64" height="32" src="/assets/logos/Sem título.png">
     MarfiteRPG - O Mundo é seu Tabuleiro
 </h1>
 
 * Site: [MarfiteRPG - Em Desenvolvimento](https://github.com/leandro-odev/MarfiteRPG)
 
-**MarfiteRPG** é um projeto desenvolvido por **Leandro Wanderley** e **Pedro Rosa** no GitHub. Este projeto visa criar um ambiente abrangente para auxiliar jogadores e mestres de RPG, indo além de um simples gerenciador de personagens. Atualmente, o projeto está em desenvolvimento, tendo implementado funcionalidades básicas, como login e seleção de personagens.
+**MarfiteRPG** é um projeto desenvolvido por [Leandro Wanderley](https://github.com/leandro-odev) e [Pedro Rosa](https://github.com/pedrorosa-dev) no GitHub. Este projeto visa criar um ambiente abrangente para auxiliar jogadores e mestres de RPG, indo além de um simples gerenciador de personagens. Atualmente, o projeto está em desenvolvimento, tendo implementado funcionalidades básicas, como login e seleção de personagens.
 
 
 <h2>Sobre o MarfiteRPG</h2>
