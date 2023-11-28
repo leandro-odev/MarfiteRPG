@@ -29,8 +29,6 @@ Além disso, o **MarfiteRPG** visa auxiliar em todas as fases do jogo. Não apen
 
 Embora tenhamos um componente de mapa, este é concebido de maneira simples, destinado principalmente para funcionalidades básicas de grid e outras necessidades essenciais. Ao contrário de plataformas que priorizam mapas complexos, nosso enfoque é criar uma experiência fluida que valorize a narrativa e a interação dos personagens, mantendo a simplicidade necessária para facilitar o jogo.
 
-Desenvolvimento Futuro
-
 ### Quantos personagens poderei ter?
 
 Nosso plano é não haver limites.
